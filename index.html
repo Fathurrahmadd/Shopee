@@ -126,12 +126,19 @@
         </div>
     </div>
     <div class="flash-sale flex-col">
-        <div class="flashsale">
-            <div class="img1">
-                <img
-                    src="http://www.jajaramirez.com/wp-content/uploads/2020/05/B87F757B-2D6E-4827-B984-E63F72E13851.jpeg" height="300px" width="1200px">
-            </div>
-        </div>
+        <div class="banners flex-col">
+            <div class="top-section flex-row">
+                <div class="left-banners swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img class="rolling-banner" src="image/flashsale.jpeg" height="245px"></div>
+                        <div class="swiper-slide"><img class="rolling-banner" src="https://jamonline.ph/wp-content/uploads/2021/07/shopee-8-8-mega-flash-sale.jpg"height="245px"></div>
+                        <div class="swiper-slide"><img class="rolling-banner" src="https://lh6.googleusercontent.com/5fXv4oSy20MSa2vgh29ZSGR4aom-8flVGp4cS20hxMwuzcgGCmWpVoWy7EmuH_9wHEnDbfzuEMDtFRNGFOd8Hqo32AP1M02kfBbfWEsoAqTfz0dhbE0mHB1liZhods7jr8mxL4_w"height="245px"></div>
+                        <div class="swiper-slide"><img class="rolling-banner" src="https://shopee.co.id/inspirasi-shopee/wp-content/uploads/2019/10/11.11-Big-Sale-2019_ShopeeID_FINAL-Orange-Background-1B.jpg"height="245px"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
     </div>
     <div class="category">
         <div class="category-wrap flex-col">
@@ -246,7 +253,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             autoplay: {
-                delay: 3000,
+                delay: 1000,
             },
             direction: 'horizontal',
             loop: true,
