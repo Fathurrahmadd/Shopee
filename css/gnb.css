@@ -74,6 +74,11 @@
 }
 .bottom > img {
     margin-bottom: 10px;
+} 
+.flash-sale {
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .category {
     background-color: #f2f2f2;
